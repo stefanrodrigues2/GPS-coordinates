@@ -14,4 +14,4 @@ result = stdout.split('\n')
 networkname = result[20].split(' ')[8]
 networkstrength = result[21].split(' ')
 print ("Networkname is : " +networkname)
-print networkstrength[2],networkstrength[3],networkstrength[4],networkstrength[5],networkstrength[6],networkstrength[7],networkstrength[8],networkstrength[9],networkstrength[10],networkstrength[11]
+print ("Signal Strength is : " +networkstrength[2],networkstrength[3],networkstrength[4],networkstrength[5],networkstrength[6],networkstrength[7],networkstrength[8],networkstrength[9],networkstrength[10],networkstrength[11])
